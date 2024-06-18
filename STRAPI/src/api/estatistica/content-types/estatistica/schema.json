@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "estatisticas",
+  "info": {
+    "singularName": "estatistica",
+    "pluralName": "estatisticas",
+    "displayName": "ESTATISTICAS"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Valor": {
+      "type": "string"
+    }
+  }
+}

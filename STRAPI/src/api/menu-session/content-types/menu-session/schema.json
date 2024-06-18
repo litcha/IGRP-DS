@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_sessions",
+  "info": {
+    "singularName": "menu-session",
+    "pluralName": "menu-sessions",
+    "displayName": "MENU-SESSION",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "links": {
+      "displayName": "Link",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.link"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

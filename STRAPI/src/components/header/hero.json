@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_header_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cabecalho": {
+      "displayName": "topheader",
+      "type": "component",
+      "repeatable": false,
+      "component": "header.topheader"
+    }
+  }
+}

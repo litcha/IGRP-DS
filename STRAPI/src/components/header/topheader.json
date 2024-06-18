@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_header_topheaders",
+  "info": {
+    "displayName": "topheader"
+  },
+  "options": {},
+  "attributes": {
+    "logotipo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

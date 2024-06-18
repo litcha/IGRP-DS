@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_menu_dropdowns",
+  "info": {
+    "displayName": "Dropdown",
+    "icon": "arrowDown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "session_ms": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::session-m.session-m"
+    }
+  }
+}

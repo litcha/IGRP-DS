@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "institucionais",
+  "info": {
+    "singularName": "institucional",
+    "pluralName": "institucionais",
+    "displayName": "INSTITUCIONAL"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Descricao": {
+      "type": "text"
+    },
+    "Fotografias": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
