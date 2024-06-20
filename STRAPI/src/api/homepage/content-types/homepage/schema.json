@@ -4,7 +4,8 @@
   "info": {
     "singularName": "homepage",
     "pluralName": "homepages",
-    "displayName": "HOMEPAGE"
+    "displayName": "HOMEPAGE",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,20 @@
     },
     "Description": {
       "type": "text"
+    },
+    "hero": {
+      "type": "dynamiczone",
+      "components": [
+        "header.hero",
+        "header.slider",
+        "header.topheader"
+      ]
+    },
+    "estatisticas": {
+      "type": "dynamiczone",
+      "components": [
+        "layout.estatisticas"
+      ]
     }
   }
 }

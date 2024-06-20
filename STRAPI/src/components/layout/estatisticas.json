@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_estatisticas",
+  "info": {
+    "displayName": "Estatisticas"
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Valor": {
+      "type": "string"
+    }
+  }
+}

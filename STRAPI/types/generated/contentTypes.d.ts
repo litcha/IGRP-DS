@@ -900,6 +900,7 @@ export interface ApiHomepageHomepage extends Schema.SingleType {
     singularName: 'homepage';
     pluralName: 'homepages';
     displayName: 'HOMEPAGE';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -907,6 +908,10 @@ export interface ApiHomepageHomepage extends Schema.SingleType {
   attributes: {
     Title: Attribute.String;
     Description: Attribute.Text;
+    hero: Attribute.DynamicZone<
+      ['header.hero', 'header.slider', 'header.topheader']
+    >;
+    estatisticas: Attribute.DynamicZone<['layout.estatisticas']>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

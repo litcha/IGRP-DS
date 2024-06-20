@@ -30,6 +30,17 @@ export interface HeaderTopheader extends Schema.Component {
   };
 }
 
+export interface LayoutEstatisticas extends Schema.Component {
+  collectionName: 'components_layout_estatisticas';
+  info: {
+    displayName: 'Estatisticas';
+  };
+  attributes: {
+    Titulo: Attribute.String;
+    Valor: Attribute.String;
+  };
+}
+
 export interface MenuDropdown extends Schema.Component {
   collectionName: 'components_menu_dropdowns';
   info: {
@@ -93,6 +104,7 @@ declare module '@strapi/types' {
       'header.hero': HeaderHero;
       'header.slider': HeaderSlider;
       'header.topheader': HeaderTopheader;
+      'layout.estatisticas': LayoutEstatisticas;
       'menu.dropdown': MenuDropdown;
       'menu.link-menu': MenuLinkMenu;
       'menu.link': MenuLink;
